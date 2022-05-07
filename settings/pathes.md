@@ -1,0 +1,3 @@
+# bashrc
+    "W:\.bashrc"
+    bashrc

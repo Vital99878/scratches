@@ -1,0 +1,22 @@
+{
+  "name": "scratches",
+  "version": "1.0.0",
+  "description": "заметки для использования. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vital99878/scratches.git"
+  },
+  "keywords": [
+    "scratches"
+  ],
+  "author": "Vitaly99878",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vital99878/scratches/issues"
+  },
+  "homepage": "https://github.com/Vital99878/scratches#readme"
+}

@@ -1,0 +1,10 @@
+GET http://jsonplaceholder.typicode.com/todos/1
+Accept: application/json###
+
+<> 2021-11-27T161944.200.json
+### GET request with a header
+GET http://jsonplaceholder.typicode.com/todos
+Accept: application/json###
+
+<> 2021-11-27T162021.200.json
+
