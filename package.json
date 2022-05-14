@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Vital99878/scratches/issues"
   },
-  "homepage": "https://github.com/Vital99878/scratches#readme"
+  "homepage": "https://github.com/Vital99878/scratches#readme",
+  "dependencies": {
+    "rxjs": "^7.5.5"
+  }
 }

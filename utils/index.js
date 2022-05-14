@@ -7,6 +7,7 @@ let users = [
   { name: "Pete", age: 18, surname: "APeterson" },
   { name: "Ann", age: 19, surname: "AAathaway" },
 ]
+
 export const people = [
   {
     name: "Denis",
@@ -62,6 +63,8 @@ nums.splice(0, nums.length)
 delete nums[4]
 
 function slice_Delete(arr) {
+
+
   const ind = arr.findIndex((el) => el.id === id)
   const newArray = [...arr.slice(0, ind), ...arr.slice(ind + 1)]
   return { todoData: newArray }
@@ -80,11 +83,17 @@ function create_pages(arr, divider) {
   let pages = []
   while (arr.length >= divider) {
     let page = arr.splice(0, divider)
+
+
     pages.push(page)
   }
+
   if (arr.length !== 0) {
+
     pages.push(arr)
+
   }
+
   return pages
 }
 
@@ -109,7 +118,7 @@ const debounce = (fn, debounceTime) => {
   // https://platform.java-mentor.com/user/courses/1/3/2/11
 }
 
-const foundIndex = nums.findIndex((el, value, curentArray) => {
+const foundIndex = nums.findIndex((el, value, currentArray) => {
   if (el === 11) return true
 }, 1)
 
@@ -147,7 +156,7 @@ function intersection(arr_1, arr_2) {
   return res
 }
 // filter by substring
-data_2.filter((item) => item.indexOf("ab") > -1)
+users.filter((item) => item.name.indexOf("ab") > -1)
 
 async function processArray(array) {
   for (const item of array) {
