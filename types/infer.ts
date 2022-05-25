@@ -38,4 +38,3 @@ type FnArgType<T> = T extends (...args: infer U) => any ? U : never
 
 type ActionT = FnArgType<typeof actionCreator_1>
 
-const n: ActionT = [5]

@@ -1,0 +1,11 @@
+GET https://jsonplaceholder.typicode.com/todos
+Accept: application/json
+X-Csrf-Token: 'fdasfdsafdas'
+
+<> 2022-05-20T131700.200.json
+<> 2022-05-20T131653.200.json
+<> 2022-05-20T131511.200.json
+<> 2022-05-20T131323.200.json
+
+
+###

@@ -1,9 +1,0 @@
-GET http://jsonplaceholder.typicode.com/todos?id=1
-Accept: application/json
-
-<> 2021-11-27T162109.200.json
-<> 2021-11-27T161657.200.json
-
-GET http://jsonplaceholder.typicode.com/todos
-Accept: application/json
-

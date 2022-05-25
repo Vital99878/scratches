@@ -1,3 +1,11 @@
+import mock from '../mock'
+type Key = string | number | symbol
+
+/**
+ *  Удобно, когда нужно сделать юнион тип из массива. Массив предварительно нужно сделать as const
+ */
+type Role = typeof mock.roles[number]
+
 type NullableType<T> = null | T
 
 //<editor-fold desc="ReturnType">
@@ -30,5 +38,18 @@ const fn_3: Fn_2<number, number> = function f(str) {
 }
 //</editor-fold>
 
+
+const data: NullableType<string> = null
+
+async function as(): Promise<string> {
+    return 'string'
+}
+
+type Aw = Awaited<ReturnType<typeof as>>
+
+/**
+ * Тип конструктора класса
+ */
+export type Constructor = { new(...args: any[]): {} }
 
 
