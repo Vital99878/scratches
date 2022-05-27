@@ -4,25 +4,14 @@
     <option name="proportionPopup" value="0.53660715" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f0bea06-2a75-4060-9a7b-509094ae0c96" name="Changes" comment="second commit">
-      <change afterPath="$PROJECT_DIR$/decorators/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enum/status.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regEx/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/rules.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/temp.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scratches.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scratches.iml" afterDir="false" />
+    <list default="true" id="4f0bea06-2a75-4060-9a7b-509094ae0c96" name="Changes" comment="third commit">
+      <change afterPath="$PROJECT_DIR$/decorator/class/CreateAt.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/property/Catch.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-api/rest-api.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-api/rest-api_1.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-api/rest-api_2.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-api/rest-api_3.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rxjs/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rxjs/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/scratch.js" beforeDir="false" afterPath="$PROJECT_DIR$/temp/scratch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/scratch.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/mock/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock/profit_mock.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/types/basic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/basic.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/infer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/infer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +31,8 @@
   <component name="Git.Settings">
     <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -71,26 +62,30 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/types" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/decorator" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="W:\design-patterns\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Office\AppData\Roaming\JetBrains\WebStorm2021.3\scratches\decorator" />
       <recent name="C:\Users\Office\AppData\Roaming\JetBrains\WebStorm2021.3\scratches\types" />
       <recent name="C:\Users\Office\AppData\Roaming\JetBrains\WebStorm2021.3\scratches\style" />
       <recent name="W:\conspect" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Office\AppData\Roaming\JetBrains\WebStorm2021.3\scratches\decorator\property" />
+      <recent name="C:\Users\Office\AppData\Roaming\JetBrains\WebStorm2021.3\scratches\decorator\class" />
       <recent name="C:\Users\Office\AppData\Roaming\JetBrains\WebStorm2021.3\scratches" />
       <recent name="C:\Users\Office\AppData\Roaming\JetBrains\WebStorm2021.3\scratches\types\enums\api" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.requests-with-authorization | Authorization by token, part 1. Retrieve and save token.">
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration name="index | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/index.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -103,16 +98,16 @@
     <configuration name="requests-with-authorization | Basic authorization." type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http" requestIdentifier="Basic authorization." runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/scratches/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/build/mock/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js" />
         <item itemvalue="HTTP Request.requests-with-authorization | Authorization by token, part 1. Retrieve and save token." />
         <item itemvalue="HTTP Request.requests-with-authorization | Basic authorization. (1)" />
         <item itemvalue="HTTP Request.requests-with-authorization | Basic authorization." />
         <item itemvalue="HTTP Request.index | #1" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +136,7 @@
       <workItem from="1653292044172" duration="9262000" />
       <workItem from="1653379732641" duration="3076000" />
       <workItem from="1653495924147" duration="1763000" />
+      <workItem from="1653666264921" duration="7652000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1652082314988</created>
@@ -163,7 +159,28 @@
       <option name="project" value="LOCAL" />
       <updated>1652556757192</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="third commit">
+      <created>1653677464145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653677464145</updated>
+    </task>
+    <task id="LOCAL-00005" summary="third commit">
+      <created>1653679981528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653679981528</updated>
+    </task>
+    <task id="LOCAL-00006" summary="third commit">
+      <created>1653680379157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653680379157</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +194,10 @@
         <option value="$PROJECT_DIR$/rxjs/index.js" />
         <option value="$PROJECT_DIR$/regEx/index.js" />
         <option value="$PROJECT_DIR$/model/response.js" />
+        <option value="$PROJECT_DIR$/mock/index.js" />
+        <option value="$PROJECT_DIR$/types/temp.js" />
+        <option value="$PROJECT_DIR$/decorator/class/CreateAt.js" />
+        <option value="$PROJECT_DIR$/decorator/property/Catch.js" />
       </list>
     </option>
   </component>
@@ -206,7 +227,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
